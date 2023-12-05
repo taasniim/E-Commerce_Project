@@ -4,16 +4,52 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="-131dp">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="140dp"
-        android:layout_marginTop="268dp"
-        android:text="Hello team"
-        android:textSize="20sp"
+    <ImageView
+        android:id="@+id/mainim"
+        android:layout_width="277dp"
+        android:layout_height="311dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="56dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/undraw_shopping_app_flsj" />
+
+    <Button
+        android:id="@+id/blog1"
+        android:layout_width="319dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="96dp"
+        android:backgroundTint="@color/orange"
+        android:text="@string/login"
+        android:textColor="#000000"
+        android:textColorHighlight="@color/orange"
+        android:textColorHint="@color/orange"
+        android:textColorLink="@color/orange"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainim"
+        app:strokeColor="@color/orange" />
+
+    <Button
+        android:id="@+id/breg1"
+        android:layout_width="319dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="192dp"
+        android:backgroundTint="@color/orange"
+        android:text="@string/Register"
+        android:textColor="#000000"
+        android:textColorHighlight="@color/orange"
+        android:textColorHint="@color/orange"
+        android:textColorLink="@color/orange"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainim"
+        app:strokeColor="@color/orange" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

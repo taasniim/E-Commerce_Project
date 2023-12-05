@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/logim"
+        android:layout_width="347dp"
+        android:layout_height="207dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/undraw_access_account_re_8spm" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="345dp" />
+
+    <EditText
+        android:id="@+id/logemail"
+        android:layout_width="300dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:hint="@string/Email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logim" />
+
+    <EditText
+        android:id="@+id/passlog"
+        android:layout_width="304dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="7dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logemail" />
+
+    <Button
+        android:id="@+id/b2log"
+        android:layout_width="326dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="@color/orange"
+        android:text="@string/login"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passlog" />
+
+    <TextView
+        android:id="@+id/donthave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/donthave"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b2log" />
+
+    <TextView
+        android:id="@+id/Registerlog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="21dp"
+        android:clickable="true"
+        android:onClick="onTextClick"
+        android:text="@string/Register"
+        android:textColor="@color/black"
+        android:textColorHint="#000000"
+        app:layout_constraintStart_toEndOf="@+id/donthave"
+        app:layout_constraintTop_toBottomOf="@+id/b2log" />
+
+    <TextView
+        android:id="@+id/forgotpasss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="8dp"
+        android:clickable="true"
+        android:onClick="onTextClick"
+        android:text="@string/forgot"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passlog" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
