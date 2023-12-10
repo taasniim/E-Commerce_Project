@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">E-Commerce Project</string>
+
     <string name="login">Login</string>
     <string name="Register">Register</string>
     <string name="Email">Email</string>
@@ -9,4 +10,35 @@
     <string name="phone">Phone</string>
     <string name="username">Username</string>
     <string name="forgot">forgot password ?</string>
+    <string name="popular">Popular</string>
+    <string name="welcome">Hi Rechard</string>
+    <string name="Order_eat">Order &amp; Eat</string>
+    <string name="profil_photo"></string>
+    <string name="recherche">Find your food!</string>
+    <string name="Categorie">Categories</string>
+    <string name="deadline">20Dec-25Dec</string>
+    <string name="livreur"></string>
+    <string name="free">Free Delivery</string>
+    <string name="pub">Order Now</string>
+    <string name="Category_pizza"></string>
+    <string name="Catebory_burger"></string>
+    <string name="Category_Hotdog"></string>
+    <string name="Category_drink"></string>
+    <string name="pizza">Pizza</string>
+    <string name="Burger">Burger</string>
+    <string name="Hotdog">Hotdog</string>
+    <string name="Drink">Drink</string>
+    <string name="title_pizza_pupular">Pizza</string>
+    <string name="prix_pizza">15.5</string>
+    <string name="dt_pizza">dt</string>
+    <string name="title_burger">Burger</string>
+    <string name="prix_burger">17.8</string>
+    <string name="dt_burger">dt</string>
+    <string name="achat"></string>
+    <string name="home"></string>
+    <string name="profil"></string>
+    <string name="support"></string>
+    <string name="settings"></string>
+    <string name="add">+Add</string>
+
 </resources>

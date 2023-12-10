@@ -30,10 +30,20 @@ public class LoginActivity extends AppCompatActivity {
          t1=findViewById(R.id.donthave);
         register=findViewById(R.id.Registerlog);
         forgotbutton=findViewById(R.id.forgotpasss);
+
         register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i1=new Intent(LoginActivity.this,RegisterActivity.class);
+                startActivity(i1);
+
+
+            }
+        });
+        log.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i1=new Intent(LoginActivity.this,homeActivity.class);
                 startActivity(i1);
 
 
