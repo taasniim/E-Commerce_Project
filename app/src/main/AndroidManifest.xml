@@ -13,6 +13,18 @@
         android:theme="@style/Theme.ECommerceProject"
         tools:targetApi="31">
         <activity
+            android:name=".favori"
+            android:exported="false" />
+        <activity
+            android:name=".notification"
+            android:exported="false" />
+        <activity
+            android:name=".commande"
+            android:exported="false" />
+        <activity
+            android:name=".profile"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
