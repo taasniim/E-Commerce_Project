@@ -1,25 +1,27 @@
 package essths.li3.e_commerceproject;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
-import android.content.Intent;
-import android.net.Uri;
-import android.os.Bundle;
+
 import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.ImageButton;
-import android.widget.ImageView;
-import android.widget.Toast;
+import android.widget.TextView;
 
 public class homeActivity extends AppCompatActivity {
-
+  TextView add;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        add=(TextView) findViewById(R.id.add_pizza);
+        add.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(homeActivity.this,paiementActivity.class);
+                startActivity(intent);
+            }
+        });
 
     }
 }

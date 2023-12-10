@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
-
     tools:layout_editor_absoluteX="0dp"
     tools:layout_editor_absoluteY="-131dp">
 
 
-    <ScrollView
+
+
+<ScrollView
         android:id="@+id/scroolview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -373,17 +373,17 @@
                         app:srcCompat="@drawable/pop_1" />
 
                     <TextView
-                        android:id="@+id/add"
+                        android:id="@+id/add_pizza"
                         android:layout_width="59dp"
                         android:layout_height="23dp"
-                        android:layout_marginStart="16dp"
+                        android:layout_marginStart="10dp"
                         android:layout_marginTop="15dp"
                         android:background="@drawable/orange_button"
                         android:paddingStart="10dp"
                         android:paddingTop="3dp"
                         android:paddingEnd="10dp"
                         android:paddingBottom="3dp"
-                        android:text="@string/add"
+                        android:text="@string/add_pizza"
                         android:textColor="#ffffff"
                         android:textStyle="bold"
                         app:layout_constraintStart_toStartOf="parent"
@@ -411,7 +411,7 @@
                         android:paddingTop="3dp"
                         android:paddingEnd="10dp"
                         android:paddingBottom="3dp"
-                        android:text="@string/add"
+                        android:text="@string/add_pizza"
                         android:textColor="#ffffff"
                         android:textStyle="bold"
                         app:layout_constraintStart_toStartOf="parent"

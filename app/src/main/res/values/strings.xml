@@ -39,6 +39,12 @@
     <string name="profil"></string>
     <string name="support"></string>
     <string name="settings"></string>
-    <string name="add">+Add</string>
+    <string name="add_pizza">+Add</string>
+    <string name="dt"> dt </string>
+    <string name="num"> num </string>
+    <string name="plus"> </string>
+    <string name="moins">  </string>
+    <string name="ADDTOCART">  ADD TO CART</string>
+    <string name="Pizza"> Pizza</string>
 
 </resources>
