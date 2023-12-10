@@ -36,7 +36,6 @@
     <string name="dt_burger">dt</string>
     <string name="achat"></string>
     <string name="home"></string>
-    <string name="profil"></string>
     <string name="support"></string>
     <string name="settings"></string>
     <string name="add_pizza">+Add</string>
@@ -46,5 +45,32 @@
     <string name="moins">  </string>
     <string name="ADDTOCART">  ADD TO CART</string>
     <string name="Pizza"> Pizza</string>
+
+    <string name="logout">Logout</string>
+    <string name="nom">Rechard Manson</string>
+    <string name="mailadr">rechardmanson@gmail.com</string>
+    <string name="profil"></string>
+    <string name="commande"></string>
+    <string name="commande1">Commande</string>
+    <string name="notification1">Notifications</string>
+    <string name="notification"></string>
+    <string name="favoris"></string>
+    <string name="favoris1">Favoris</string>
+    <string name="adr">Adresse:</string>
+    <string name="num_ph">Phone number:</string>
+    <string name="adresse">Rue Ajmi Ben saad</string>
+    <string name="tel">53735944</string>
+    <string name="linearcommande"></string>
+    <string name="linearcnotif"></string>
+    <string name="linearfavoris"></string>
+    <string name="details">2 pizza saucisse</string>
+    <string name="commandes">Vos Commandes:</string>
+    <string name="precedent"></string>
+    <string name="notif">Notifications</string>
+    <string name="detailnotif">votre commande est prêt </string>
+
+    <string name="favorite">vous n avez pas selectionné aucun produit</string>
+
+
 
 </resources>
